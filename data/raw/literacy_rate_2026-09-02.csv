@@ -1,0 +1,893 @@
+country_code,country_name,year,indicator_name,value,source,retrieved_date
+AFG,Afghanistan,2021,literacy_rate,37.2700004577637,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AFG,Afghanistan,2020,literacy_rate,36.0149650316607,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AFG,Afghanistan,2015,literacy_rate,33.75,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AFG,Afghanistan,2011,literacy_rate,31.4500007629394,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ALB,Albania,2023,literacy_rate,97.6800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ALB,Albania,2017,literacy_rate,98.8099975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ALB,Albania,2012,literacy_rate,97.25,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ALB,Albania,2011,literacy_rate,96.8499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ALB,Albania,2008,literacy_rate,95.9400024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ALB,Albania,2001,literacy_rate,98.7099990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DZA,Algeria,2008,literacy_rate,75.1399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DZA,Algeria,2006,literacy_rate,72.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DZA,Algeria,2002,literacy_rate,69.870002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AGO,Angola,2023,literacy_rate,68.1800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AGO,Angola,2015,literacy_rate,66.2399978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AGO,Angola,2014,literacy_rate,66.0299987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AGO,Angola,2001,literacy_rate,67.4100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ATG,Antigua and Barbuda,2001,literacy_rate,98.9499969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARG,Argentina,2020,literacy_rate,99.1399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARG,Argentina,2001,literacy_rate,97.1900024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARM,Armenia,2023,literacy_rate,99.8399963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARM,Armenia,2022,literacy_rate,99.8199996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARM,Armenia,2020,literacy_rate,99.7900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARM,Armenia,2019,literacy_rate,100.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARM,Armenia,2018,literacy_rate,100.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARM,Armenia,2017,literacy_rate,99.7399978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARM,Armenia,2016,literacy_rate,99.7399978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARM,Armenia,2011,literacy_rate,99.7399978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARM,Armenia,2001,literacy_rate,99.4000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ABW,Aruba,2010,literacy_rate,96.8199996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ABW,Aruba,2000,literacy_rate,97.2900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AZE,Azerbaijan,2023,literacy_rate,99.7799987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AZE,Azerbaijan,2019,literacy_rate,99.8000030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AZE,Azerbaijan,2017,literacy_rate,99.7900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AZE,Azerbaijan,2016,literacy_rate,99.7900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AZE,Azerbaijan,2015,literacy_rate,99.7900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AZE,Azerbaijan,2014,literacy_rate,99.7900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AZE,Azerbaijan,2013,literacy_rate,99.7900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AZE,Azerbaijan,2012,literacy_rate,99.7799987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AZE,Azerbaijan,2011,literacy_rate,99.7799987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AZE,Azerbaijan,2010,literacy_rate,99.7699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AZE,Azerbaijan,2009,literacy_rate,99.7600021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+AZE,Azerbaijan,2007,literacy_rate,99.5899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BHR,Bahrain,2023,literacy_rate,97.8499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BHR,Bahrain,2022,literacy_rate,97.870002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BHR,Bahrain,2001,literacy_rate,86.5500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGD,Bangladesh,2022,literacy_rate,79.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGD,Bangladesh,2021,literacy_rate,76.3600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGD,Bangladesh,2020,literacy_rate,74.9100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGD,Bangladesh,2019,literacy_rate,74.6800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGD,Bangladesh,2018,literacy_rate,73.9100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGD,Bangladesh,2017,literacy_rate,72.8899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGD,Bangladesh,2016,literacy_rate,72.7600021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGD,Bangladesh,2015,literacy_rate,65.1399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGD,Bangladesh,2014,literacy_rate,61.0900001525879,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGD,Bangladesh,2013,literacy_rate,61.0200004577637,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGD,Bangladesh,2012,literacy_rate,57.8600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGD,Bangladesh,2011,literacy_rate,58.7700004577637,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGD,Bangladesh,2001,literacy_rate,47.4900016784668,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BLR,Belarus,2019,literacy_rate,99.870002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BLR,Belarus,2009,literacy_rate,99.620002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BLZ,Belize,2022,literacy_rate,87.879997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BLZ,Belize,2015,literacy_rate,90.9199981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BLZ,Belize,2000,literacy_rate,76.9000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BEN,Benin,2022,literacy_rate,51.3800010681152,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BEN,Benin,2021,literacy_rate,43.8300018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BEN,Benin,2019,literacy_rate,49.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BEN,Benin,2017,literacy_rate,38.8699989318848,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BEN,Benin,2013,literacy_rate,45.0800018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BEN,Benin,2011,literacy_rate,44.6881229256471,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BEN,Benin,2002,literacy_rate,34.6599998474121,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BTN,Bhutan,2022,literacy_rate,64.9100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BTN,Bhutan,2017,literacy_rate,66.5599975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BTN,Bhutan,2012,literacy_rate,55.3199996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BTN,Bhutan,2005,literacy_rate,52.810001373291,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BOL,Bolivia,2023,literacy_rate,95.5500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BOL,Bolivia,2020,literacy_rate,93.8499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BOL,Bolivia,2015,literacy_rate,92.4599990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BOL,Bolivia,2012,literacy_rate,94.4599990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BOL,Bolivia,2011,literacy_rate,92.2300033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BOL,Bolivia,2009,literacy_rate,91.1699981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BOL,Bolivia,2008,literacy_rate,90.6999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BOL,Bolivia,2007,literacy_rate,90.2900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BOL,Bolivia,2001,literacy_rate,86.7200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BIH,Bosnia and Herzegovina,2013,literacy_rate,96.9899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BIH,Bosnia and Herzegovina,2000,literacy_rate,96.6600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BWA,Botswana,2003,literacy_rate,81.1900024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2023,literacy_rate,94.5725490635077,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2022,literacy_rate,94.376866160108,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2021,literacy_rate,94.7726170886975,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2020,literacy_rate,94.7444114331042,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2019,literacy_rate,93.8926266999537,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2018,literacy_rate,93.2300033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2017,literacy_rate,93.0800018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2016,literacy_rate,92.8099975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2015,literacy_rate,92.0500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2014,literacy_rate,91.7300033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2013,literacy_rate,91.4800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2012,literacy_rate,91.3399963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2011,literacy_rate,91.4100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2010,literacy_rate,90.379997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2009,literacy_rate,90.3000030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2008,literacy_rate,90.0400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2007,literacy_rate,90.0100021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2006,literacy_rate,89.620002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2004,literacy_rate,88.620002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRA,Brazil,2000,literacy_rate,86.370002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRN,Brunei Darussalam,2011,literacy_rate,96.0899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BRN,Brunei Darussalam,2001,literacy_rate,92.6699981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGR,Bulgaria,2011,literacy_rate,98.3499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BGR,Bulgaria,2001,literacy_rate,98.1999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BFA,Burkina Faso,2023,literacy_rate,41.5670909952631,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BFA,Burkina Faso,2022,literacy_rate,40.9199981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BFA,Burkina Faso,2021,literacy_rate,36.9700012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BFA,Burkina Faso,2019,literacy_rate,29.6599998474121,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BFA,Burkina Faso,2018,literacy_rate,39.3499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BFA,Burkina Faso,2014,literacy_rate,34.5999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BFA,Burkina Faso,2007,literacy_rate,27.8799991607666,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BFA,Burkina Faso,2006,literacy_rate,22.4699993133545,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BFA,Burkina Faso,2005,literacy_rate,23.5200004577637,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BFA,Burkina Faso,2003,literacy_rate,21.8199996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BDI,Burundi,2020,literacy_rate,71.3374789737041,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BDI,Burundi,2017,literacy_rate,68.379997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BDI,Burundi,2016,literacy_rate,65.6900024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BDI,Burundi,2014,literacy_rate,61.2900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BDI,Burundi,2008,literacy_rate,48.0800018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+BDI,Burundi,2000,literacy_rate,59.2999992370605,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CPV,Cabo Verde,2015,literacy_rate,86.7900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CPV,Cabo Verde,2012,literacy_rate,85.3300018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CPV,Cabo Verde,2009,literacy_rate,82.2189574366152,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KHM,Cambodia,2021,literacy_rate,71.9300003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KHM,Cambodia,2020,literacy_rate,82.5510430822563,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KHM,Cambodia,2019,literacy_rate,87.6600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KHM,Cambodia,2015,literacy_rate,80.5299987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KHM,Cambodia,2014,literacy_rate,78.0599975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KHM,Cambodia,2013,literacy_rate,79.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KHM,Cambodia,2009,literacy_rate,76.1399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KHM,Cambodia,2008,literacy_rate,76.870002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KHM,Cambodia,2004,literacy_rate,73.6100006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CMR,Cameroon,2018,literacy_rate,72.5500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CMR,Cameroon,2010,literacy_rate,71.1900024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CMR,Cameroon,2007,literacy_rate,70.6800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CMR,Cameroon,2000,literacy_rate,68.4100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CYM,Cayman Islands,2017,literacy_rate,98.870002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CYM,Cayman Islands,2007,literacy_rate,98.870002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CAF,Central African Republic,2019,literacy_rate,42.439998626709,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CAF,Central African Republic,2000,literacy_rate,50.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TCD,Chad,2019,literacy_rate,30.6299991607666,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TCD,Chad,2016,literacy_rate,22.3099994659424,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TCD,Chad,2004,literacy_rate,28.3799991607666,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TCD,Chad,2000,literacy_rate,25.6499996185303,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CHL,Chile,2017,literacy_rate,96.4000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CHL,Chile,2015,literacy_rate,96.870002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CHL,Chile,2013,literacy_rate,96.2699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CHL,Chile,2011,literacy_rate,96.6999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CHL,Chile,2002,literacy_rate,95.7200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CHN,China,2020,literacy_rate,96.7399978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CHN,China,2010,literacy_rate,95.120002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CHN,China,2000,literacy_rate,90.9199981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2023,literacy_rate,95.4566254983696,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2022,literacy_rate,95.31030793119,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2021,literacy_rate,95.6606500324449,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2020,literacy_rate,95.6399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2019,literacy_rate,95.25,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2018,literacy_rate,95.0899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2017,literacy_rate,94.8873885601748,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2016,literacy_rate,94.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2015,literacy_rate,94.25,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2014,literacy_rate,94.1900024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2011,literacy_rate,93.5800018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2010,literacy_rate,93.370002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2009,literacy_rate,93.2399978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2008,literacy_rate,93.379997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2007,literacy_rate,92.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2006,literacy_rate,92.3000030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2005,literacy_rate,92.8499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COL,Colombia,2004,literacy_rate,92.8000030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COM,Comoros,2021,literacy_rate,75.6201980162165,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COM,Comoros,2014,literacy_rate,73.6494960644007,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COM,Comoros,2000,literacy_rate,68.25,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COD,"Congo, Dem. Rep.",2023,literacy_rate,68.5,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COD,"Congo, Dem. Rep.",2020,literacy_rate,65.6828744335957,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COD,"Congo, Dem. Rep.",2018,literacy_rate,73.5500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COD,"Congo, Dem. Rep.",2016,literacy_rate,77.0400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COD,"Congo, Dem. Rep.",2012,literacy_rate,75.0199966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COD,"Congo, Dem. Rep.",2001,literacy_rate,67.1699981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+COG,"Congo, Rep.",2005,literacy_rate,76.1100006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CRI,Costa Rica,2011,literacy_rate,97.4100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CRI,Costa Rica,2000,literacy_rate,94.870002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CIV,Cote d'Ivoire,2021,literacy_rate,50.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CIV,Cote d'Ivoire,2019,literacy_rate,56.9592400560829,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CIV,Cote d'Ivoire,2016,literacy_rate,50.0400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CIV,Cote d'Ivoire,2014,literacy_rate,43.9099998474121,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CIV,Cote d'Ivoire,2000,literacy_rate,48.7400016784668,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HRV,Croatia,2001,literacy_rate,98.1500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CUB,Cuba,2019,literacy_rate,97.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CUB,Cuba,2012,literacy_rate,99.6699981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CUB,Cuba,2002,literacy_rate,99.8000030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CYP,Cyprus,2011,literacy_rate,98.6800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+CYP,Cyprus,2001,literacy_rate,96.8000030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2023,literacy_rate,94.3123758236054,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2022,literacy_rate,93.7022375646963,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2021,literacy_rate,93.7309714425844,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2020,literacy_rate,93.6926372060753,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2019,literacy_rate,93.6726916249429,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2018,literacy_rate,93.4360584896058,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2017,literacy_rate,93.2332153385684,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2016,literacy_rate,93.7799987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2015,literacy_rate,91.9899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2014,literacy_rate,91.7600021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2013,literacy_rate,90.8600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2012,literacy_rate,90.1600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2011,literacy_rate,90.1100006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2010,literacy_rate,89.5400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2007,literacy_rate,88.2399978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+DOM,Dominican Republic,2002,literacy_rate,87.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2022,literacy_rate,96.2600021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2021,literacy_rate,94.4800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2020,literacy_rate,93.629997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2017,literacy_rate,92.8300018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2016,literacy_rate,94.3499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2015,literacy_rate,94.4599990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2014,literacy_rate,94.2200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2013,literacy_rate,93.2900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2012,literacy_rate,92.0599975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2011,literacy_rate,91.5899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2010,literacy_rate,91.8499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2009,literacy_rate,92.25,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2008,literacy_rate,92.3899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2007,literacy_rate,92.0999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ECU,Ecuador,2001,literacy_rate,90.9800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+EGY,"Egypt, Arab Rep.",2022,literacy_rate,79.4531619498685,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+EGY,"Egypt, Arab Rep.",2021,literacy_rate,82.0803858167894,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+EGY,"Egypt, Arab Rep.",2017,literacy_rate,71.1699981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+EGY,"Egypt, Arab Rep.",2013,literacy_rate,72.4400024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+EGY,"Egypt, Arab Rep.",2012,literacy_rate,73.870002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+EGY,"Egypt, Arab Rep.",2010,literacy_rate,72.0500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+EGY,"Egypt, Arab Rep.",2006,literacy_rate,66.370002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+EGY,"Egypt, Arab Rep.",2005,literacy_rate,67.3300018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2023,literacy_rate,89.8499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2022,literacy_rate,89.3537151570456,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2021,literacy_rate,89.0586486323527,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2020,literacy_rate,89.9800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2019,literacy_rate,89.1399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2018,literacy_rate,89.0100021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2017,literacy_rate,88.4800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2016,literacy_rate,88.1399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2015,literacy_rate,87.9700012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2014,literacy_rate,87.4125334516516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2013,literacy_rate,86.7699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2012,literacy_rate,85.4624559924635,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2011,literacy_rate,85.4899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2010,literacy_rate,84.4899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2009,literacy_rate,84.0999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2008,literacy_rate,83.9499969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2007,literacy_rate,82.0299987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLV,El Salvador,2006,literacy_rate,83.5599975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GNQ,Equatorial Guinea,2000,literacy_rate,88.3099975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ERI,Eritrea,2008,literacy_rate,64.6600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ERI,Eritrea,2002,literacy_rate,52.5099983215332,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+EST,Estonia,2011,literacy_rate,99.8899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+EST,Estonia,2000,literacy_rate,99.7699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SWZ,Eswatini,2022,literacy_rate,90.75,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SWZ,Eswatini,2000,literacy_rate,81.6600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ETH,Ethiopia,2022,literacy_rate,60.4599990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ETH,Ethiopia,2021,literacy_rate,54.8853699463392,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ETH,Ethiopia,2019,literacy_rate,55.0499992370605,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ETH,Ethiopia,2016,literacy_rate,47.4900016784668,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ETH,Ethiopia,2013,literacy_rate,48.3549726348554,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ETH,Ethiopia,2007,literacy_rate,39.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ETH,Ethiopia,2004,literacy_rate,35.9000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GAB,Gabon,2021,literacy_rate,88.8600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GMB,"Gambia, The",2021,literacy_rate,51.6399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GMB,"Gambia, The",2018,literacy_rate,53.1599998474121,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GMB,"Gambia, The",2015,literacy_rate,50.7799987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GMB,"Gambia, The",2000,literacy_rate,36.8199996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GEO,Georgia,2023,literacy_rate,99.5599975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GEO,Georgia,2022,literacy_rate,99.5699996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GEO,Georgia,2021,literacy_rate,99.9180842054209,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GEO,Georgia,2020,literacy_rate,99.8930662080586,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GEO,Georgia,2019,literacy_rate,99.8757151699707,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GEO,Georgia,2018,literacy_rate,99.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GEO,Georgia,2017,literacy_rate,99.3600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GEO,Georgia,2014,literacy_rate,99.5899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GEO,Georgia,2002,literacy_rate,99.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GHA,Ghana,2021,literacy_rate,76.4899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GHA,Ghana,2017,literacy_rate,64.4899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GHA,Ghana,2015,literacy_rate,60.1981035367761,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GHA,Ghana,2010,literacy_rate,71.5,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GHA,Ghana,2000,literacy_rate,57.9000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GRC,Greece,2009,literacy_rate,93.9100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GRC,Greece,2001,literacy_rate,95.9899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GTM,Guatemala,2023,literacy_rate,83.0195796057608,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GTM,Guatemala,2022,literacy_rate,83.0299987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GTM,Guatemala,2018,literacy_rate,80.8099975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GTM,Guatemala,2015,literacy_rate,80.1999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GTM,Guatemala,2014,literacy_rate,81.2900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GTM,Guatemala,2013,literacy_rate,77.0400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GTM,Guatemala,2012,literacy_rate,78.2600021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GTM,Guatemala,2002,literacy_rate,69.0999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GIN,Guinea,2018,literacy_rate,39.6199989318848,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GIN,Guinea,2014,literacy_rate,32.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GIN,Guinea,2010,literacy_rate,25.3099994659424,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GIN,Guinea,2003,literacy_rate,29.7000007629394,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GNB,Guinea-Bissau,2022,literacy_rate,63.9300003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GNB,Guinea-Bissau,2019,literacy_rate,54.8800010681152,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GNB,Guinea-Bissau,2000,literacy_rate,41.3600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+GUY,Guyana,2020,literacy_rate,85.6399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HTI,Haiti,2017,literacy_rate,68.0100021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HTI,Haiti,2012,literacy_rate,73.953334886651,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HTI,Haiti,2003,literacy_rate,58.7400016784668,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HND,Honduras,2023,literacy_rate,87.0899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HND,Honduras,2022,literacy_rate,88.2192789618317,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HND,Honduras,2019,literacy_rate,88.5100021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HND,Honduras,2018,literacy_rate,87.2099990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HND,Honduras,2016,literacy_rate,88.9899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HND,Honduras,2015,literacy_rate,87.9100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HND,Honduras,2014,literacy_rate,87.1999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HND,Honduras,2013,literacy_rate,85.4599990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HND,Honduras,2012,literacy_rate,85.3600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HND,Honduras,2011,literacy_rate,85.120002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HND,Honduras,2010,literacy_rate,84.7600021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HND,Honduras,2007,literacy_rate,83.5899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+HND,Honduras,2001,literacy_rate,80.0100021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IND,India,2023,literacy_rate,81.6999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IND,India,2022,literacy_rate,76.3199996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IND,India,2021,literacy_rate,76.0596617430205,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IND,India,2020,literacy_rate,75.5270629470344,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IND,India,2019,literacy_rate,74.8938629973395,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IND,India,2018,literacy_rate,73.6883524760717,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IND,India,2012,literacy_rate,69.8279300354369,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IND,India,2011,literacy_rate,69.3000030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IND,India,2010,literacy_rate,68.325817300837,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IND,India,2006,literacy_rate,62.75,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IND,India,2001,literacy_rate,61.0099983215332,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IDN,Indonesia,2020,literacy_rate,96.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IDN,Indonesia,2018,literacy_rate,95.6600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IDN,Indonesia,2016,literacy_rate,95.379997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IDN,Indonesia,2015,literacy_rate,95.2200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IDN,Indonesia,2014,literacy_rate,95.120002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IDN,Indonesia,2011,literacy_rate,92.8099975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IDN,Indonesia,2010,literacy_rate,92.3199996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IDN,Indonesia,2009,literacy_rate,92.5800018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IDN,Indonesia,2008,literacy_rate,92.1900024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IDN,Indonesia,2006,literacy_rate,91.9800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IDN,Indonesia,2004,literacy_rate,90.379997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2023,literacy_rate,88.9168161136597,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2022,literacy_rate,88.5942297159365,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2021,literacy_rate,88.4555944977134,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2020,literacy_rate,87.9028264049083,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2019,literacy_rate,87.3788306734933,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2018,literacy_rate,86.8688350894209,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2017,literacy_rate,85.9467906933665,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2016,literacy_rate,85.5400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2015,literacy_rate,85.283432659187,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2014,literacy_rate,84.7099990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2013,literacy_rate,84.629997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2012,literacy_rate,83.629997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2011,literacy_rate,83.5199966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2010,literacy_rate,83.6646682357838,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2009,literacy_rate,83.222239914938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2008,literacy_rate,82.9599990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2006,literacy_rate,82.3300018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2005,literacy_rate,82.4400024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRN,"Iran, Islamic Rep.",2002,literacy_rate,77.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRQ,Iraq,2021,literacy_rate,84.0648941705243,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRQ,Iraq,2017,literacy_rate,85.5999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRQ,Iraq,2016,literacy_rate,83.3000030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRQ,Iraq,2014,literacy_rate,82.1999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRQ,Iraq,2012,literacy_rate,77.1999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+IRQ,Iraq,2000,literacy_rate,74.0500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ITA,Italy,2019,literacy_rate,99.3499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ITA,Italy,2011,literacy_rate,98.8499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ITA,Italy,2001,literacy_rate,98.4199981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+JOR,Jordan,2023,literacy_rate,94.8499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+JOR,Jordan,2018,literacy_rate,95.4300003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+JOR,Jordan,2012,literacy_rate,97.8899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+JOR,Jordan,2011,literacy_rate,95.9000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+JOR,Jordan,2010,literacy_rate,92.5500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+JOR,Jordan,2007,literacy_rate,92.1999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+JOR,Jordan,2005,literacy_rate,91.129997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+JOR,Jordan,2003,literacy_rate,89.8899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KAZ,Kazakhstan,2009,literacy_rate,99.7300033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KEN,Kenya,2000,literacy_rate,82.2300033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KIR,Kiribati,2020,literacy_rate,98.6079816424987,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KIR,Kiribati,2018,literacy_rate,97.9599990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRK,"Korea, Dem. People's Rep.",2008,literacy_rate,100.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KOR,"Korea, Rep.",2008,literacy_rate,97.9700012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KWT,Kuwait,2020,literacy_rate,96.4599990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KWT,Kuwait,2018,literacy_rate,96.0599975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KWT,Kuwait,2017,literacy_rate,96.0400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KWT,Kuwait,2015,literacy_rate,95.6900024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KWT,Kuwait,2013,literacy_rate,95.5899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KWT,Kuwait,2012,literacy_rate,95.5100021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KWT,Kuwait,2010,literacy_rate,94.4700012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KWT,Kuwait,2008,literacy_rate,93.9000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KWT,Kuwait,2007,literacy_rate,93.6600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KWT,Kuwait,2006,literacy_rate,93.2799987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KWT,Kuwait,2005,literacy_rate,93.2699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+KGZ,Kyrgyz Republic,2009,literacy_rate,99.2399978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LAO,Lao PDR,2023,literacy_rate,75.6399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LAO,Lao PDR,2017,literacy_rate,73.7200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LAO,Lao PDR,2015,literacy_rate,84.6600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LAO,Lao PDR,2005,literacy_rate,72.6999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LAO,Lao PDR,2001,literacy_rate,68.7300033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LAO,Lao PDR,2000,literacy_rate,69.5800018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LVA,Latvia,2011,literacy_rate,99.9000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LVA,Latvia,2000,literacy_rate,99.75,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LBN,Lebanon,2019,literacy_rate,92.0099744752418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LBN,Lebanon,2018,literacy_rate,92.6699981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LBN,Lebanon,2009,literacy_rate,91.1800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LBN,Lebanon,2007,literacy_rate,89.6100006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LSO,Lesotho,2019,literacy_rate,92.3961659464955,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LSO,Lesotho,2018,literacy_rate,86.2399978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LSO,Lesotho,2016,literacy_rate,97.2699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LSO,Lesotho,2006,literacy_rate,66.0999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LSO,Lesotho,2000,literacy_rate,86.25,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LBR,Liberia,2010,literacy_rate,59.4030316392756,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LTU,Lithuania,2011,literacy_rate,99.8199996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LTU,Lithuania,2001,literacy_rate,99.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MAC,"Macao SAR, China",2016,literacy_rate,96.5400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MAC,"Macao SAR, China",2011,literacy_rate,95.6399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MAC,"Macao SAR, China",2006,literacy_rate,93.5,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MAC,"Macao SAR, China",2001,literacy_rate,91.3000030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MDG,Madagascar,2021,literacy_rate,74.6900024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MDG,Madagascar,2018,literacy_rate,76.6800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MDG,Madagascar,2012,literacy_rate,71.5699996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MDG,Madagascar,2000,literacy_rate,70.6900024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MWI,Malawi,2020,literacy_rate,70.1500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MWI,Malawi,2018,literacy_rate,76.7200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MWI,Malawi,2017,literacy_rate,72.8266778164735,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MYS,Malaysia,2022,literacy_rate,95.7699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MYS,Malaysia,2019,literacy_rate,94.9700012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MYS,Malaysia,2018,literacy_rate,94.8499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MYS,Malaysia,2017,literacy_rate,95.0800018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MYS,Malaysia,2016,literacy_rate,94.879997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MYS,Malaysia,2010,literacy_rate,93.120002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MYS,Malaysia,2000,literacy_rate,88.6900024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MDV,Maldives,2019,literacy_rate,98.2099990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MDV,Maldives,2017,literacy_rate,94.5100021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MDV,Maldives,2016,literacy_rate,97.7300033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MDV,Maldives,2014,literacy_rate,98.6100006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MDV,Maldives,2006,literacy_rate,98.4000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MDV,Maldives,2000,literacy_rate,96.3300018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MLI,Mali,2018,literacy_rate,35.4700012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MLI,Mali,2015,literacy_rate,33.0699996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MLI,Mali,2011,literacy_rate,30.6200008392334,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MLI,Mali,2010,literacy_rate,31.1000003814697,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MLI,Mali,2006,literacy_rate,26.1800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MLI,Mali,2003,literacy_rate,24.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MLT,Malta,2011,literacy_rate,93.3099975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MLT,Malta,2005,literacy_rate,92.3600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MHL,Marshall Islands,2021,literacy_rate,95.7629302411191,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MHL,Marshall Islands,2019,literacy_rate,98.1800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MHL,Marshall Islands,2011,literacy_rate,98.2699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MRT,Mauritania,2020,literacy_rate,59.5299987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MRT,Mauritania,2015,literacy_rate,65.1100006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MRT,Mauritania,2013,literacy_rate,62.0699996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MRT,Mauritania,2000,literacy_rate,51.2099990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MUS,Mauritius,2023,literacy_rate,94.2877776512134,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MUS,Mauritius,2021,literacy_rate,92.9800213334339,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MUS,Mauritius,2016,literacy_rate,93.1600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MUS,Mauritius,2015,literacy_rate,92.7099990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MUS,Mauritius,2014,literacy_rate,92.4700012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MUS,Mauritius,2013,literacy_rate,91.4899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MUS,Mauritius,2012,literacy_rate,91.7699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MUS,Mauritius,2011,literacy_rate,89.25,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MUS,Mauritius,2000,literacy_rate,84.3000030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2023,literacy_rate,95.8346901734281,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2022,literacy_rate,95.120002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2021,literacy_rate,95.6890981310362,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2020,literacy_rate,95.25,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2019,literacy_rate,95.3889403219417,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2018,literacy_rate,95.379997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2017,literacy_rate,94.9700012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2016,literacy_rate,94.8600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2015,literacy_rate,94.4700012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2014,literacy_rate,94.5599975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2013,literacy_rate,93.9599990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2012,literacy_rate,94.2300033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2011,literacy_rate,93.5199966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2010,literacy_rate,93.0699996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2009,literacy_rate,93.4400024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2008,literacy_rate,92.9300003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2007,literacy_rate,92.8000030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2006,literacy_rate,91.7300033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2005,literacy_rate,91.629997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2004,literacy_rate,90.9499969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2002,literacy_rate,90.2699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MEX,Mexico,2000,literacy_rate,90.5400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MDA,Moldova,2014,literacy_rate,99.3600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MDA,Moldova,2000,literacy_rate,96.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MNG,Mongolia,2023,literacy_rate,98.6399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MNG,Mongolia,2022,literacy_rate,98.7300033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MNG,Mongolia,2021,literacy_rate,99.2143568969301,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MNG,Mongolia,2020,literacy_rate,99.1800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MNG,Mongolia,2019,literacy_rate,98.4599990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MNG,Mongolia,2018,literacy_rate,96.9000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MNG,Mongolia,2010,literacy_rate,98.2600021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MNG,Mongolia,2000,literacy_rate,97.7699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MNE,Montenegro,2018,literacy_rate,98.5299987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MNE,Montenegro,2011,literacy_rate,98.4400024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MNE,Montenegro,2003,literacy_rate,97.7699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MAR,Morocco,2014,literacy_rate,64.2600021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MAR,Morocco,2012,literacy_rate,69.1600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MAR,Morocco,2011,literacy_rate,67.0800018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MAR,Morocco,2009,literacy_rate,56.0800018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MAR,Morocco,2008,literacy_rate,55.1500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MAR,Morocco,2004,literacy_rate,52.310001373291,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MOZ,Mozambique,2022,literacy_rate,61.6653441678133,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MOZ,Mozambique,2020,literacy_rate,59.7799987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MOZ,Mozambique,2017,literacy_rate,60.6599998474121,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MOZ,Mozambique,2015,literacy_rate,56.0400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MOZ,Mozambique,2009,literacy_rate,50.5800018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MOZ,Mozambique,2003,literacy_rate,48.1599998474121,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MMR,Myanmar,2020,literacy_rate,93.527395549521,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MMR,Myanmar,2019,literacy_rate,89.0699996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MMR,Myanmar,2018,literacy_rate,95.8142859113662,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MMR,Myanmar,2016,literacy_rate,84.7799987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MMR,Myanmar,2014,literacy_rate,90.3600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MMR,Myanmar,2000,literacy_rate,89.9400024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NAM,Namibia,2023,literacy_rate,87.6399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NAM,Namibia,2018,literacy_rate,88.2832376600657,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NAM,Namibia,2016,literacy_rate,88.1304979203867,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NAM,Namibia,2011,literacy_rate,88.2699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NAM,Namibia,2001,literacy_rate,84.9400024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NRU,Naoero,2023,literacy_rate,96.5899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NRU,Naoero,2021,literacy_rate,94.6337926033357,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NPL,Nepal,2019,literacy_rate,68.7099990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NPL,Nepal,2017,literacy_rate,66.8653947551556,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NPL,Nepal,2016,literacy_rate,65.5,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NPL,Nepal,2011,literacy_rate,59.6300010681152,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NPL,Nepal,2008,literacy_rate,55.5600725155626,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NPL,Nepal,2001,literacy_rate,48.6100006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NIC,Nicaragua,2014,literacy_rate,87.327180649097,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NIC,Nicaragua,2012,literacy_rate,85.6105708963441,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NIC,Nicaragua,2005,literacy_rate,78.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NIC,Nicaragua,2001,literacy_rate,76.6800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NER,Niger,2022,literacy_rate,35.6100006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NER,Niger,2018,literacy_rate,33.0499992370605,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NER,Niger,2014,literacy_rate,29.0437067944143,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NER,Niger,2012,literacy_rate,30.5599994659424,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NER,Niger,2005,literacy_rate,28.6700000762939,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NER,Niger,2001,literacy_rate,14.3800001144409,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NGA,Nigeria,2021,literacy_rate,63.1599998474121,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NGA,Nigeria,2016,literacy_rate,58.2200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NGA,Nigeria,2006,literacy_rate,70.1999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+NGA,Nigeria,2003,literacy_rate,54.7700004577637,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+MKD,North Macedonia,2002,literacy_rate,96.129997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+OMN,Oman,2022,literacy_rate,97.3399963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+OMN,Oman,2020,literacy_rate,96.9000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+OMN,Oman,2018,literacy_rate,95.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+OMN,Oman,2017,literacy_rate,95.5800018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+OMN,Oman,2015,literacy_rate,93.0400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+OMN,Oman,2010,literacy_rate,86.9400024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+OMN,Oman,2008,literacy_rate,86.620002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+OMN,Oman,2003,literacy_rate,66.0999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAK,Pakistan,2021,literacy_rate,58.8600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAK,Pakistan,2019,literacy_rate,58.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAK,Pakistan,2018,literacy_rate,57.0099983215332,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAK,Pakistan,2017,literacy_rate,59.1300010681152,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAK,Pakistan,2014,literacy_rate,56.9799995422363,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAK,Pakistan,2013,literacy_rate,55.5900001525879,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAK,Pakistan,2012,literacy_rate,56.7599983215332,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAK,Pakistan,2011,literacy_rate,54.7400016784668,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAK,Pakistan,2010,literacy_rate,55.3800010681152,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAK,Pakistan,2009,literacy_rate,54.8899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAK,Pakistan,2008,literacy_rate,55.5299987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAK,Pakistan,2007,literacy_rate,52.1399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAK,Pakistan,2006,literacy_rate,54.1500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAK,Pakistan,2005,literacy_rate,49.8699989318848,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PLW,Palau,2020,literacy_rate,99.8448081264108,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PLW,Palau,2015,literacy_rate,96.5899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PLW,Palau,2013,literacy_rate,99.5,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAN,Panama,2023,literacy_rate,96.0893871402691,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAN,Panama,2021,literacy_rate,96.2119100135584,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAN,Panama,2019,literacy_rate,95.7399978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAN,Panama,2018,literacy_rate,95.4100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAN,Panama,2010,literacy_rate,94.0899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PAN,Panama,2000,literacy_rate,91.9000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PNG,Papua New Guinea,2022,literacy_rate,87.0046890533686,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PNG,Papua New Guinea,2017,literacy_rate,70.0599975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PNG,Papua New Guinea,2010,literacy_rate,68.9689096424639,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PNG,Papua New Guinea,2000,literacy_rate,57.3400001525879,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRY,Paraguay,2020,literacy_rate,94.5400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRY,Paraguay,2019,literacy_rate,93.2099990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRY,Paraguay,2018,literacy_rate,94.0199966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRY,Paraguay,2016,literacy_rate,94.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRY,Paraguay,2015,literacy_rate,95.5500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRY,Paraguay,2014,literacy_rate,95.0299987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRY,Paraguay,2013,literacy_rate,95.0599975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRY,Paraguay,2012,literacy_rate,94.1999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRY,Paraguay,2010,literacy_rate,93.870002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRY,Paraguay,2009,literacy_rate,93.75,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRY,Paraguay,2008,literacy_rate,93.2900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRY,Paraguay,2007,literacy_rate,94.5599975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PER,Peru,2020,literacy_rate,94.5,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PER,Peru,2018,literacy_rate,94.4100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PER,Peru,2017,literacy_rate,94.1500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PER,Peru,2016,literacy_rate,94.1699981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PER,Peru,2015,literacy_rate,94.1600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PER,Peru,2014,literacy_rate,93.7099990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PER,Peru,2012,literacy_rate,93.8399963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PER,Peru,2007,literacy_rate,89.5899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PER,Peru,2006,literacy_rate,88.6999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PER,Peru,2005,literacy_rate,87.9100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PER,Peru,2004,literacy_rate,87.6699981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PHL,Philippines,2020,literacy_rate,98.4700012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PHL,Philippines,2019,literacy_rate,96.2799987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PHL,Philippines,2015,literacy_rate,98.1800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PHL,Philippines,2013,literacy_rate,96.4000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PHL,Philippines,2010,literacy_rate,97.0899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PHL,Philippines,2008,literacy_rate,95.4199981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PHL,Philippines,2003,literacy_rate,92.5899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PHL,Philippines,2000,literacy_rate,92.5999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRT,Portugal,2011,literacy_rate,94.4800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRI,Puerto Rico (US),2017,literacy_rate,92.3899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PRI,Puerto Rico (US),2010,literacy_rate,91.9700012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+QAT,Qatar,2014,literacy_rate,97.75,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+QAT,Qatar,2013,literacy_rate,97.4800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+QAT,Qatar,2012,literacy_rate,96.6800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+QAT,Qatar,2011,literacy_rate,96.4100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+QAT,Qatar,2010,literacy_rate,96.2799987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+QAT,Qatar,2009,literacy_rate,94.7200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+QAT,Qatar,2008,literacy_rate,93.9899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+QAT,Qatar,2007,literacy_rate,93.0800018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+QAT,Qatar,2004,literacy_rate,88.9599990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ROU,Romania,2021,literacy_rate,99.1600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ROU,Romania,2011,literacy_rate,98.5999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ROU,Romania,2002,literacy_rate,97.3000030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+RUS,Russian Federation,2021,literacy_rate,99.9300003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+RUS,Russian Federation,2010,literacy_rate,99.6800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+RUS,Russian Federation,2002,literacy_rate,99.4400024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+RWA,Rwanda,2022,literacy_rate,78.7600021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+RWA,Rwanda,2020,literacy_rate,80.0500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+RWA,Rwanda,2018,literacy_rate,73.2200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+RWA,Rwanda,2014,literacy_rate,70.8000030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+RWA,Rwanda,2012,literacy_rate,68.3300018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+RWA,Rwanda,2000,literacy_rate,64.8899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+WSM,Samoa,2019,literacy_rate,97.9899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+WSM,Samoa,2017,literacy_rate,99.7071903264793,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+WSM,Samoa,2016,literacy_rate,99.4000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+WSM,Samoa,2011,literacy_rate,98.9700012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SMR,San Marino,2022,literacy_rate,99.9100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+STP,Sao Tome and Principe,2019,literacy_rate,87.4400024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+STP,Sao Tome and Principe,2012,literacy_rate,90.1399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+STP,Sao Tome and Principe,2001,literacy_rate,84.9100036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SAU,Saudi Arabia,2020,literacy_rate,97.5899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SAU,Saudi Arabia,2017,literacy_rate,95.3300018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SAU,Saudi Arabia,2013,literacy_rate,94.4300003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SAU,Saudi Arabia,2004,literacy_rate,82.8600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SAU,Saudi Arabia,2000,literacy_rate,79.3499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SEN,Senegal,2023,literacy_rate,50.3600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SEN,Senegal,2019,literacy_rate,46.8300018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SEN,Senegal,2018,literacy_rate,46.6100006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SEN,Senegal,2017,literacy_rate,51.9000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SEN,Senegal,2016,literacy_rate,46.0999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SEN,Senegal,2015,literacy_rate,43.5900001525879,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SEN,Senegal,2013,literacy_rate,43.5299987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SEN,Senegal,2011,literacy_rate,51.810001373291,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SEN,Senegal,2009,literacy_rate,48.0400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SEN,Senegal,2006,literacy_rate,41.8899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SEN,Senegal,2002,literacy_rate,39.2799987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SRB,Serbia,2022,literacy_rate,99.3399963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SRB,Serbia,2019,literacy_rate,99.4800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SRB,Serbia,2016,literacy_rate,98.8399963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SRB,Serbia,2011,literacy_rate,97.9599990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SRB,Serbia,2003,literacy_rate,96.4000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SYC,Seychelles,2010,literacy_rate,93.9499969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SYC,Seychelles,2002,literacy_rate,91.8399963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLE,Sierra Leone,2019,literacy_rate,43.5800018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLE,Sierra Leone,2018,literacy_rate,48.8143667728528,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLE,Sierra Leone,2017,literacy_rate,44.8300018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLE,Sierra Leone,2015,literacy_rate,49.4000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLE,Sierra Leone,2014,literacy_rate,44.3698913332904,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SLE,Sierra Leone,2004,literacy_rate,34.8300018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SGP,Singapore,2021,literacy_rate,97.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SGP,Singapore,2020,literacy_rate,97.129997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SGP,Singapore,2019,literacy_rate,97.4800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SGP,Singapore,2018,literacy_rate,97.3399963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SGP,Singapore,2017,literacy_rate,97.1999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SGP,Singapore,2016,literacy_rate,97.0500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SGP,Singapore,2015,literacy_rate,96.8300018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SGP,Singapore,2014,literacy_rate,96.7200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SGP,Singapore,2013,literacy_rate,96.5500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SGP,Singapore,2012,literacy_rate,96.370002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SGP,Singapore,2011,literacy_rate,96.1900024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SGP,Singapore,2010,literacy_rate,95.8600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SGP,Singapore,2000,literacy_rate,92.5500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SOM,"Somalia, Fed. Rep.",2022,literacy_rate,54.1199989318848,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SOM,"Somalia, Fed. Rep.",2019,literacy_rate,63.6579378279423,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZAF,South Africa,2021,literacy_rate,90.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZAF,South Africa,2019,literacy_rate,95.0199966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZAF,South Africa,2016,literacy_rate,91.7399978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZAF,South Africa,2015,literacy_rate,94.370002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZAF,South Africa,2014,literacy_rate,94.1399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZAF,South Africa,2012,literacy_rate,93.7300033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZAF,South Africa,2011,literacy_rate,93.0999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZAF,South Africa,2010,literacy_rate,92.879997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZAF,South Africa,2009,literacy_rate,92.8899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZAF,South Africa,2007,literacy_rate,88.7200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SSD,South Sudan,2008,literacy_rate,26.8299999237061,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2021,literacy_rate,99.6999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2020,literacy_rate,98.5899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2018,literacy_rate,98.4400024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2016,literacy_rate,98.25,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2015,literacy_rate,98.1399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2014,literacy_rate,98.0899963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2013,literacy_rate,98.0800018310547,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2012,literacy_rate,97.8899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2011,literacy_rate,97.7799987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2010,literacy_rate,97.75,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2009,literacy_rate,97.6800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2008,literacy_rate,97.629997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2007,literacy_rate,97.9400024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2006,literacy_rate,97.75,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2005,literacy_rate,97.75,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ESP,Spain,2004,literacy_rate,97.1699981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LKA,Sri Lanka,2023,literacy_rate,92.6600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LKA,Sri Lanka,2022,literacy_rate,92.4899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LKA,Sri Lanka,2021,literacy_rate,92.4300003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LKA,Sri Lanka,2020,literacy_rate,92.379997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LKA,Sri Lanka,2019,literacy_rate,92.25,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LKA,Sri Lanka,2018,literacy_rate,91.7099990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LKA,Sri Lanka,2017,literacy_rate,91.9000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LKA,Sri Lanka,2016,literacy_rate,92.3899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LKA,Sri Lanka,2015,literacy_rate,92.5537849020454,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LKA,Sri Lanka,2014,literacy_rate,92.5346618196112,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LKA,Sri Lanka,2010,literacy_rate,91.1800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LKA,Sri Lanka,2008,literacy_rate,90.5599975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LKA,Sri Lanka,2006,literacy_rate,90.8099975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+LKA,Sri Lanka,2001,literacy_rate,90.6800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SDN,Sudan,2008,literacy_rate,53.5200004577637,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SDN,Sudan,2000,literacy_rate,61.3499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SUR,Suriname,2012,literacy_rate,92.870002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SUR,Suriname,2010,literacy_rate,94.6800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SUR,Suriname,2008,literacy_rate,94.620002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SUR,Suriname,2004,literacy_rate,89.5999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SYR,Syrian Arab Republic,2021,literacy_rate,94.4199981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SYR,Syrian Arab Republic,2004,literacy_rate,80.8399963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+SYR,Syrian Arab Republic,2002,literacy_rate,82.8899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TJK,Tajikistan,2009,literacy_rate,99.7298704511844,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TJK,Tajikistan,2007,literacy_rate,98.0293057466938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TJK,Tajikistan,2003,literacy_rate,97.3502368564513,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TJK,Tajikistan,2000,literacy_rate,99.4499969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TZA,Tanzania,2022,literacy_rate,78.2099990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TZA,Tanzania,2020,literacy_rate,82.2361019196766,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TZA,Tanzania,2015,literacy_rate,77.8899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TZA,Tanzania,2014,literacy_rate,79.8949432291161,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TZA,Tanzania,2012,literacy_rate,78.0999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TZA,Tanzania,2002,literacy_rate,69.4300003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+THA,Thailand,2022,literacy_rate,91.0999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+THA,Thailand,2019,literacy_rate,91.2699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+THA,Thailand,2018,literacy_rate,93.7699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+THA,Thailand,2016,literacy_rate,91.9800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+THA,Thailand,2015,literacy_rate,92.870002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+THA,Thailand,2013,literacy_rate,93.6999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+THA,Thailand,2010,literacy_rate,96.4300003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+THA,Thailand,2005,literacy_rate,93.5100021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+THA,Thailand,2000,literacy_rate,92.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TLS,Timor-Leste,2022,literacy_rate,69.4000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TLS,Timor-Leste,2016,literacy_rate,65.7799987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TLS,Timor-Leste,2015,literacy_rate,64.4499969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TLS,Timor-Leste,2010,literacy_rate,58.310001373291,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TLS,Timor-Leste,2007,literacy_rate,50.5999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TLS,Timor-Leste,2001,literacy_rate,37.5999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TGO,Togo,2022,literacy_rate,72.5999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TGO,Togo,2019,literacy_rate,66.5400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TGO,Togo,2017,literacy_rate,60.9537021917226,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TGO,Togo,2015,literacy_rate,63.75,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TGO,Togo,2011,literacy_rate,60.4099998474121,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TGO,Togo,2010,literacy_rate,57.2000007629395,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TGO,Togo,2009,literacy_rate,57.0900001525879,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TGO,Togo,2006,literacy_rate,56.8899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TGO,Togo,2000,literacy_rate,53.1800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TON,Tonga,2023,literacy_rate,99.4800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TON,Tonga,2019,literacy_rate,91.0500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TON,Tonga,2016,literacy_rate,97.1500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TON,Tonga,2011,literacy_rate,99.3899993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TON,Tonga,2006,literacy_rate,99.0199966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUN,Tunisia,2023,literacy_rate,86.25,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUN,Tunisia,2021,literacy_rate,83.6800003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUN,Tunisia,2019,literacy_rate,80.5500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUN,Tunisia,2018,literacy_rate,79.4800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUN,Tunisia,2014,literacy_rate,79.0400009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUN,Tunisia,2012,literacy_rate,80.2200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUN,Tunisia,2011,literacy_rate,79.6500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUN,Tunisia,2010,literacy_rate,79.129997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUN,Tunisia,2008,literacy_rate,77.7099990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUN,Tunisia,2007,literacy_rate,77.1900024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUN,Tunisia,2004,literacy_rate,74.3000030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2021,literacy_rate,97.2600021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2019,literacy_rate,96.7399978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2017,literacy_rate,96.1500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2016,literacy_rate,95.8600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2015,literacy_rate,95.5999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2014,literacy_rate,95.4400024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2013,literacy_rate,95.2600021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2012,literacy_rate,94.9199981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2011,literacy_rate,94.1100006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2010,literacy_rate,92.6600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2009,literacy_rate,90.8199996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2007,literacy_rate,88.6600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2006,literacy_rate,88.120002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2005,literacy_rate,88.2300033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUR,Turkiye,2004,literacy_rate,87.370002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TKM,Turkmenistan,2022,literacy_rate,99.9000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+TUV,Tuvalu,2022,literacy_rate,100.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UGA,Uganda,2023,literacy_rate,80.5100021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UGA,Uganda,2021,literacy_rate,79.0476540680567,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UGA,Uganda,2016,literacy_rate,69.0999984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UGA,Uganda,2014,literacy_rate,68.5100021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UGA,Uganda,2012,literacy_rate,70.1999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UGA,Uganda,2010,literacy_rate,73.2099990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UGA,Uganda,2006,literacy_rate,71.370002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UGA,Uganda,2002,literacy_rate,68.1399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UKR,Ukraine,2001,literacy_rate,99.4300003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARE,United Arab Emirates,2023,literacy_rate,98.0599975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARE,United Arab Emirates,2022,literacy_rate,98.2900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARE,United Arab Emirates,2021,literacy_rate,98.129997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARE,United Arab Emirates,2019,literacy_rate,97.7799987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ARE,United Arab Emirates,2005,literacy_rate,90.0299987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2023,literacy_rate,98.8254937778285,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2022,literacy_rate,98.8499984741211,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2020,literacy_rate,98.9596198051761,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2019,literacy_rate,98.7699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2018,literacy_rate,98.6999969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2017,literacy_rate,98.620002746582,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2016,literacy_rate,98.5599975585938,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2015,literacy_rate,98.5199966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2014,literacy_rate,98.4400024414062,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2013,literacy_rate,98.3600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2012,literacy_rate,98.4000015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2011,literacy_rate,98.3399963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2010,literacy_rate,98.0699996948242,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2009,literacy_rate,98.2600021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2008,literacy_rate,98.1600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2007,literacy_rate,97.8600006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+URY,Uruguay,2006,literacy_rate,97.7900009155273,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UZB,Uzbekistan,2022,literacy_rate,100.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UZB,Uzbekistan,2021,literacy_rate,100.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UZB,Uzbekistan,2019,literacy_rate,100.0,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UZB,Uzbekistan,2018,literacy_rate,99.9899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UZB,Uzbekistan,2016,literacy_rate,99.9899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UZB,Uzbekistan,2015,literacy_rate,99.9800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UZB,Uzbekistan,2014,literacy_rate,99.9800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UZB,Uzbekistan,2013,literacy_rate,99.9899978637695,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+UZB,Uzbekistan,2000,literacy_rate,98.6399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VUT,Vanuatu,2023,literacy_rate,87.9599990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VUT,Vanuatu,2020,literacy_rate,89.7930993872856,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VUT,Vanuatu,2019,literacy_rate,92.4744486976738,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VEN,"Venezuela, RB",2017,literacy_rate,97.1837183128414,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VEN,"Venezuela, RB",2016,literacy_rate,97.129997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VEN,"Venezuela, RB",2015,literacy_rate,96.6100006103516,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VEN,"Venezuela, RB",2012,literacy_rate,95.9871889937429,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VEN,"Venezuela, RB",2011,literacy_rate,94.7699966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VEN,"Venezuela, RB",2010,literacy_rate,95.3924213233743,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VEN,"Venezuela, RB",2009,literacy_rate,95.5100021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VEN,"Venezuela, RB",2008,literacy_rate,95.3116995541662,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VEN,"Venezuela, RB",2007,literacy_rate,95.1500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VEN,"Venezuela, RB",2006,literacy_rate,94.6620701964151,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VEN,"Venezuela, RB",2005,literacy_rate,94.3707013803128,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VEN,"Venezuela, RB",2001,literacy_rate,92.9800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VNM,Viet Nam,2022,literacy_rate,96.129997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VNM,Viet Nam,2019,literacy_rate,95.75,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VNM,Viet Nam,2009,literacy_rate,93.5199966430664,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+VNM,Viet Nam,2000,literacy_rate,90.1600036621094,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2022,literacy_rate,97.8399963378906,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2021,literacy_rate,97.6840000894857,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2020,literacy_rate,97.5100021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2019,literacy_rate,97.379997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2018,literacy_rate,97.2200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2017,literacy_rate,96.9199981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2016,literacy_rate,96.7200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2015,literacy_rate,96.4800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2014,literacy_rate,96.2099990844727,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2013,literacy_rate,96.0500030517578,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2012,literacy_rate,95.6699981689453,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2011,literacy_rate,95.0299987792969,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2010,literacy_rate,94.7200012207031,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2009,literacy_rate,94.4300003051758,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2008,literacy_rate,94.0100021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2007,literacy_rate,93.7600021362305,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2006,literacy_rate,93.4499969482422,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+PSE,West Bank and Gaza,2004,literacy_rate,92.4800033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZMB,Zambia,2022,literacy_rate,79.9841479741156,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZMB,Zambia,2021,literacy_rate,79.9494621864846,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZMB,Zambia,2020,literacy_rate,81.7530087399265,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZMB,Zambia,2018,literacy_rate,71.129997253418,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZMB,Zambia,2010,literacy_rate,83.1399993896484,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZMB,Zambia,2002,literacy_rate,69.1500015258789,UNESCO Institute for Statistics (via World Bank API),2026-09-02
+ZWE,Zimbabwe,2019,literacy_rate,93.2300033569336,UNESCO Institute for Statistics (via World Bank API),2026-09-02

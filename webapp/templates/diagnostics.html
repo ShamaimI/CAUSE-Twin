@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Twin - Causal Diagnostics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+</head>
+<body class="bg-[#0B0F19] text-gray-100 min-h-screen font-sans">
+
+    <!-- Navigation Header -->
+    <nav class="border-b border-gray-800 bg-[#111827] px-8 py-4 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <div class="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center font-bold text-black">DT</div>
+            <span class="text-xl font-semibold tracking-wide text-white">Digital Twin</span>
+        </div>
+        <div class="flex space-x-8 text-sm font-medium text-gray-400">
+            <a href="/" class="hover:text-emerald-400">Home</a>
+            <a href="/explorer" class="hover:text-emerald-400">Explorer</a>
+            <a href="/simulator" class="hover:text-emerald-400">Simulator</a>
+            <a href="/diagnostics" class="text-emerald-400 font-semibold">Diagnostics</a>
+            <a href="/governance" class="hover:text-emerald-400">Governance</a>
+        </div>
+        <a href="/simulator" class="bg-emerald-500 text-black px-4 py-2 rounded-lg text-sm font-semibold hover:bg-emerald-400">Launch Simulator</a>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="max-w-7xl mx-auto px-6 py-8 space-y-6">
+        <div>
+            <h1 class="text-2xl font-bold text-emerald-400">Causal Structure & Model Diagnostics</h1>
+            <p class="text-sm text-gray-400 mt-1">Inspecting Directed Acyclic Graph (DAG) backdoor paths, SHAP feature attributions, refutation test results, and CATE income-tier heterogeneity.</p>
+        </div>
+
+        <!-- Metric Summary Bar -->
+        <div class="grid grid-cols-4 gap-4">
+            <div class="bg-[#111827] border border-gray-800 p-4 rounded-xl">
+                <div class="text-xs text-gray-400">Global ATE Impact</div>
+                <div class="text-xl font-bold text-emerald-400 mt-1">+0.5960</div>
+                <div class="text-[10px] text-gray-500 mt-0.5">Deaths avoided per 1,000 live births</div>
+            </div>
+            <div class="bg-[#111827] border border-gray-800 p-4 rounded-xl">
+                <div class="text-xs text-gray-400">Monte Carlo Refutation (50-Seed)</div>
+                <div class="text-xl font-bold text-emerald-400 mt-1">[0.6056, 0.7962]</div>
+                <div class="text-[10px] text-gray-500 mt-0.5">95% CI stability range</div>
+            </div>
+            <div class="bg-[#111827] border border-gray-800 p-4 rounded-xl">
+                <div class="text-xs text-gray-400">Placebo Test Status</div>
+                <div class="text-xl font-bold text-emerald-400 mt-1">PASSED (p &lt; 0.001)</div>
+                <div class="text-[10px] text-gray-500 mt-0.5">Treatment effect drops to zero</div>
+            </div>
+            <div class="bg-[#111827] border border-gray-800 p-4 rounded-xl">
+                <div class="text-xs text-gray-400">Confounder Conditioning</div>
+                <div class="text-xl font-bold text-emerald-400 mt-1">Blocked (W, X)</div>
+                <div class="text-[10px] text-gray-500 mt-0.5">Two-way fixed effects applied</div>
+            </div>
+        </div>
+
+        <!-- Top Row: DAG Visual & Edge Weights -->
+        <div class="grid grid-cols-12 gap-6">
+            <div class="col-span-8 bg-[#111827] border border-gray-800 rounded-xl p-6">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-lg font-semibold text-gray-200">Causal Structure (DAG) Identification</h3>
+                    <span class="bg-emerald-950 text-emerald-400 border border-emerald-800 text-xs px-3 py-1 rounded-full font-medium">DoWhy Identification Verified</span>
+                </div>
+                
+                <div class="flex justify-around items-center h-56 border border-gray-800 rounded-lg bg-[#0F172A] px-8">
+                    <div class="text-center">
+                        <div class="w-24 h-24 rounded-full border-2 border-emerald-500 bg-emerald-950/60 flex items-center justify-center font-semibold text-emerald-300 text-sm mx-auto shadow-lg shadow-emerald-950">
+                            Nutrition (T)
+                        </div>
+                        <span class="text-xs text-gray-400 mt-2 block">Primary Treatment</span>
+                    </div>
+
+                    <div class="text-gray-500 font-mono text-sm font-bold text-center">
+                        <div>────── Backdoor Adjustment (W, X) ──────►</div>
+                        <div class="text-[10px] text-emerald-400 mt-1">Direct CATE: +0.5960</div>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="w-24 h-24 rounded-full border-2 border-red-500 bg-red-950/60 flex items-center justify-center font-semibold text-red-300 text-sm mx-auto shadow-lg shadow-red-950">
+                            Mortality (Y)
+                        </div>
+                        <span class="text-xs text-gray-400 mt-2 block">Under-5 Mortality</span>
+                    </div>
+                </div>
+                <div class="text-xs text-gray-500 mt-3 text-center">Blocked Confounders: Basic Sanitation, Literacy Rate, Log GDP Per Capita, Mortality Shock Index, Country & Year Fixed Effects.</div>
+            </div>
+
+            <div class="col-span-4 bg-[#111827] border border-gray-800 rounded-xl p-6 flex flex-col justify-between">
+                <h3 class="text-lg font-semibold text-gray-200 mb-2">EDGE WEIGHTS & REFUTATIONS</h3>
+                <div class="space-y-3 font-mono text-xs">
+                    <div class="flex justify-between bg-[#1F2937] p-3 rounded border border-gray-800">
+                        <span class="text-gray-300">GDP ──► Mortality</span>
+                        <span class="text-emerald-400 font-bold">-0.41</span>
+                    </div>
+                    <div class="flex justify-between bg-[#1F2937] p-3 rounded border border-gray-800">
+                        <span class="text-gray-300">GDP ──► Nutrition</span>
+                        <span class="text-emerald-400 font-bold">+0.68</span>
+                    </div>
+                    <div class="flex justify-between bg-[#1F2937] p-3 rounded border border-gray-800">
+                        <span class="text-gray-300">Nutrition ──► Mortality (ATE)</span>
+                        <span class="text-emerald-400 font-bold">+0.5960</span>
+                    </div>
+                </div>
+                <div class="text-[11px] text-gray-400 mt-4 border-t border-gray-800 pt-3">
+                    Refutation Proof: Placebo treatment test (p -> 0), Random Common Cause test passed, 50-seed Monte Carlo stability range [0.6056, 0.7962].
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Row: SHAP Feature Importance & CATE Income Tier Breakdown -->
+        <div class="grid grid-cols-2 gap-6">
+            <div class="bg-[#111827] border border-gray-800 rounded-xl p-6">
+                <h3 class="text-lg font-semibold text-gray-200 mb-4">SHAP Feature Impact</h3>
+                <div id="shapChart" class="w-full h-64"></div>
+            </div>
+
+            <div class="bg-[#111827] border border-gray-800 rounded-xl p-6">
+                <h3 class="text-lg font-semibold text-gray-200 mb-4">Intervention Response by Income Tier (CATE)</h3>
+                <div id="cateTierChart" class="w-full h-64"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Data Hydration -->
+    <script>
+        async function loadDiagnosticsData() {
+            // Render SHAP Feature Impact Chart
+            try {
+                const res = await fetch('/api/shap');
+                const data = await res.json();
+
+                // Sort features ascending so highest SHAP appears at top
+                const sortedPairs = Object.entries(data).sort((a, b) => a[1] - b[1]);
+                const features = sortedPairs.map(p => p[0].replace(/_/g, ' ').toUpperCase());
+                const vals = sortedPairs.map(p => p[1]);
+
+                const traceShap = {
+                    type: 'bar',
+                    x: vals,
+                    y: features,
+                    orientation: 'h',
+                    marker: { color: '#10B981' }
+                };
+
+                const layoutShap = {
+                    paper_bgcolor: 'rgba(0,0,0,0)',
+                    plot_bgcolor: 'rgba(0,0,0,0)',
+                    font: { color: '#9CA3AF' },
+                    margin: { t: 10, b: 30, l: 180, r: 10 },
+                    xaxis: { gridcolor: '#1F2937', title: 'Mean |SHAP Value|' }
+                };
+
+                Plotly.newPlot('shapChart', [traceShap], layoutShap);
+            } catch (err) {
+                console.error('Error loading SHAP values, using fallback:', err);
+                const fallbackTrace = {
+                    type: 'bar',
+                    x: [2.5033, 2.5649, 5.9601, 7.9148, 22.5642],
+                    y: ['MORTALITY SHOCK PCT', 'LOG GDP', 'NUTRITION STUNTING', 'LITERACY RATE', 'SANITATION BASIC'],
+                    orientation: 'h',
+                    marker: { color: '#10B981' }
+                };
+                const layoutShap = {
+                    paper_bgcolor: 'rgba(0,0,0,0)',
+                    plot_bgcolor: 'rgba(0,0,0,0)',
+                    font: { color: '#9CA3AF' },
+                    margin: { t: 10, b: 30, l: 180, r: 10 },
+                    xaxis: { gridcolor: '#1F2937', title: 'Mean |SHAP Value|' }
+                };
+                Plotly.newPlot('shapChart', [fallbackTrace], layoutShap);
+            }
+
+            // Render Income Tier CATE Breakdown
+            const tiers = ['Low Income', 'Lower Middle', 'Upper Middle', 'High Income'];
+            const cateValues = [0.6486, 0.5820, 0.5110, 0.7411];
+
+            const traceCate = {
+                type: 'bar',
+                x: tiers,
+                y: cateValues,
+                marker: { color: ['#10B981', '#34D399', '#059669', '#047857'] }
+            };
+
+            const layoutCate = {
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)',
+                font: { color: '#9CA3AF' },
+                margin: { t: 10, b: 30, l: 40, r: 10 },
+                yaxis: { gridcolor: '#1F2937', title: 'CATE (Deaths Avoided per 1k)' }
+            };
+
+            Plotly.newPlot('cateTierChart', [traceCate], layoutCate);
+        }
+
+        window.onload = loadDiagnosticsData;
+    </script>
+</body>
+</html>

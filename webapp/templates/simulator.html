@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Twin - Policy Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+</head>
+<body class="bg-[#0B0F19] text-gray-100 min-h-screen font-sans">
+
+    <!-- Navigation Header -->
+    <nav class="border-b border-gray-800 bg-[#111827] px-8 py-4 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <div class="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center font-bold text-black">DT</div>
+            <span class="text-xl font-semibold tracking-wide text-white">Digital Twin</span>
+        </div>
+        <div class="flex space-x-8 text-sm font-medium text-gray-400">
+            <a href="/" class="hover:text-emerald-400">Home</a>
+            <a href="/explorer" class="hover:text-emerald-400">Explorer</a>
+            <a href="/simulator" class="text-emerald-400 font-semibold">Simulator</a>
+            <a href="/diagnostics" class="hover:text-emerald-400">Diagnostics</a>
+            <a href="/governance" class="hover:text-emerald-400">Governance</a>
+        </div>
+        <a href="/simulator" class="bg-emerald-500 text-black px-4 py-2 rounded-lg text-sm font-semibold hover:bg-emerald-400">Launch Simulator</a>
+    </nav>
+
+    <!-- Main Simulator Grid -->
+    <div class="max-w-7xl mx-auto px-6 py-8 grid grid-cols-12 gap-6">
+
+        <!-- Left Column: All 4 Bidirectional Levers -->
+        <div class="col-span-4 bg-[#111827] border border-gray-800 rounded-xl p-6">
+            <h2 class="text-lg font-semibold mb-4 text-emerald-400">"What-If" Policy Levers</h2>
+            
+            <label class="block text-xs uppercase font-semibold text-gray-400 mb-2">Select Country</label>
+            <select id="simCountry" class="w-full bg-[#1F2937] border border-gray-700 rounded-lg px-4 py-2 text-sm mb-6 text-white cursor-pointer" onchange="runSimulation()">
+                {% for country in countries %}
+                <option value="{{ country }}">{{ country }}</option>
+                {% endfor %}
+            </select>
+
+            <div class="space-y-5">
+                <!-- Lever 1: Nutrition Stunting (-10% to +10%) -->
+                <div>
+                    <div class="flex justify-between text-xs mb-1">
+                        <span class="text-gray-300 font-medium">Nutrition Stunting Shift</span>
+                        <span id="stuntingVal" class="text-emerald-400 font-bold">-5.0%</span>
+                    </div>
+                    <input type="range" id="stuntingSlider" min="-10.0" max="10.0" step="0.5" value="-5.0"
+                           class="w-full accent-emerald-500 cursor-pointer" oninput="updateVal('stuntingVal', this.value)">
+                    <p class="text-[10px] text-gray-500 mt-0.5">Negative = Stunting Reduction | Positive = Stunting Spikes</p>
+                </div>
+
+                <!-- Lever 2: Basic Sanitation Access (-15% to +15%) -->
+                <div>
+                    <div class="flex justify-between text-xs mb-1">
+                        <span class="text-gray-300 font-medium">Sanitation Access Shift</span>
+                        <span id="sanitationVal" class="text-emerald-400 font-bold">+2.5%</span>
+                    </div>
+                    <input type="range" id="sanitationSlider" min="-15.0" max="15.0" step="0.5" value="2.5"
+                           class="w-full accent-emerald-500 cursor-pointer" oninput="updateVal('sanitationVal', this.value)">
+                    <p class="text-[10px] text-gray-500 mt-0.5">Positive = Access Gain | Negative = Service Disruption</p>
+                </div>
+
+                <!-- Lever 3: Literacy Rate (-10% to +10%) -->
+                <div>
+                    <div class="flex justify-between text-xs mb-1">
+                        <span class="text-gray-300 font-medium">Literacy Rate Shift</span>
+                        <span id="literacyVal" class="text-emerald-400 font-bold">+1.0%</span>
+                    </div>
+                    <input type="range" id="literacySlider" min="-10.0" max="10.0" step="0.5" value="1.0"
+                           class="w-full accent-emerald-500 cursor-pointer" oninput="updateVal('literacyVal', this.value)">
+                    <p class="text-[10px] text-gray-500 mt-0.5">Positive = Literacy Program | Negative = School Dropout Surge</p>
+                </div>
+
+                <!-- Lever 4: GDP Per Capita (-10% to +10%) -->
+                <div>
+                    <div class="flex justify-between text-xs mb-1">
+                        <span class="text-gray-300 font-medium">GDP Per Capita Shift</span>
+                        <span id="gdpVal" class="text-emerald-400 font-bold">+2.0%</span>
+                    </div>
+                    <input type="range" id="gdpSlider" min="-10.0" max="10.0" step="0.5" value="2.0"
+                           class="w-full accent-emerald-500 cursor-pointer" oninput="updateVal('gdpVal', this.value)">
+                    <p class="text-[10px] text-gray-500 mt-0.5">Positive = Macro Expansion | Negative = Economic Contraction</p>
+                </div>
+            </div>
+
+            <!-- Uncertainty Warning Box -->
+            <div id="warningBox" class="hidden bg-amber-950/40 border border-amber-800 text-amber-300 p-4 rounded-lg text-xs mt-6">
+                <strong>Estimation Uncertainty Warning:</strong> The 95% CATE confidence interval for this country encompasses zero. Absolute lives-saved projections reflect demographic scale rather than tight parameter precision.
+            </div>
+        </div>
+
+        <!-- Right Column: 10-Year Projection & Metric Cards -->
+        <div class="col-span-8 space-y-6">
+            
+            <div class="bg-[#111827] border border-gray-800 rounded-xl p-6">
+                <h3 class="text-lg font-semibold text-gray-200 mb-4">10-Year Child Survival Trajectory</h3>
+                <div id="projectionChart" class="w-full h-80"></div>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4">
+                <div class="bg-[#111827] border border-gray-800 p-4 rounded-xl">
+                    <div id="kpiLabel" class="text-xs text-gray-400">Annual Lives Saved / (Impact)</div>
+                    <div id="kpiPoint" class="text-2xl font-bold text-emerald-400 mt-1">--</div>
+                </div>
+                <div class="bg-[#111827] border border-gray-800 p-4 rounded-xl">
+                    <div class="text-xs text-gray-400">95% Confidence Bounds</div>
+                    <div id="kpiCI" class="text-sm font-semibold text-gray-300 mt-2">--</div>
+                </div>
+                <div class="bg-[#111827] border border-gray-800 p-4 rounded-xl">
+                    <div class="text-xs text-gray-400">Demographic Data Lineage</div>
+                    <div class="text-sm font-semibold text-emerald-400 mt-2">World Bank Real CBR</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Simulator Frontend JS -->
+    <script>
+        function updateVal(elementId, val) {
+            const num = parseFloat(val);
+            const formatted = num > 0 ? '+' + num.toFixed(1) + '%' : num.toFixed(1) + '%';
+            document.getElementById(elementId).innerText = formatted;
+            
+            // Toggle color based on positive/negative
+            if (num > 0) {
+                document.getElementById(elementId).className = "text-emerald-400 font-bold";
+            } else if (num < 0) {
+                document.getElementById(elementId).className = "text-red-400 font-bold";
+            } else {
+                document.getElementById(elementId).className = "text-gray-400 font-bold";
+            }
+
+            runSimulation();
+        }
+
+        async function runSimulation() {
+            const country = document.getElementById('simCountry').value;
+            const stunting = parseFloat(document.getElementById('stuntingSlider').value);
+            const sanitation = parseFloat(document.getElementById('sanitationSlider').value);
+            const literacy = parseFloat(document.getElementById('literacySlider').value);
+            const gdp = parseFloat(document.getElementById('gdpSlider').value);
+
+            // Stunting reduction is positive welfare (so inverted for math: -5% stunting cut = +5% treatment benefit)
+            const stunting_treatment_shift = -stunting;
+
+            try {
+                const response = await fetch('/api/simulate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        country: country,
+                        stunting_shift: stunting_treatment_shift,
+                        sanitation_shift: sanitation,
+                        literacy_shift: literacy,
+                        gdp_shift: gdp
+                    })
+                });
+
+                const data = await response.json();
+                const lives = data.lives_saved_point || 0;
+
+                // Dynamically update KPI card for lives saved vs. additional deaths
+                if (lives >= 0) {
+                    document.getElementById('kpiLabel').innerText = 'Annual Lives Saved';
+                    document.getElementById('kpiPoint').innerText = lives.toLocaleString() + ' lives';
+                    document.getElementById('kpiPoint').className = 'text-2xl font-bold text-emerald-400 mt-1';
+                } else {
+                    document.getElementById('kpiLabel').innerText = 'Annual Excess Mortality Risk';
+                    document.getElementById('kpiPoint').innerText = Math.abs(lives).toLocaleString() + ' additional deaths';
+                    document.getElementById('kpiPoint').className = 'text-2xl font-bold text-red-400 mt-1';
+                }
+
+                document.getElementById('kpiCI').innerText = '[' + (data.lives_saved_lower || 0).toLocaleString() + ' , ' + (data.lives_saved_upper || 0).toLocaleString() + ']';
+
+                if (data.is_zero_crossing) {
+                    document.getElementById('warningBox').classList.remove('hidden');
+                } else {
+                    document.getElementById('warningBox').classList.add('hidden');
+                }
+
+                renderChart(data);
+            } catch (err) {
+                console.error('Simulation error:', err);
+            }
+        }
+
+        function renderChart(data) {
+            const baseVal = data.base_u5mr || 35.0;
+            const deltaTotal = data.delta_u5mr_total || 0.0;
+
+            const years = [2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032];
+            const baseTrajectory = years.map((y, i) => Math.max(1.0, baseVal - (i * 0.3)));
+            
+            // Policy trajectory drops if net policy is positive (lives saved), or increases if policy regression (excess deaths)
+            const policyTrajectory = years.map((y, i) => Math.max(1.0, baseVal - (i * 0.3) - (deltaTotal * (i / 9.0))));
+
+            const traceBase = {
+                x: years, y: baseTrajectory,
+                name: 'Baseline Trend',
+                line: { color: '#6B7280', dash: 'dash' }
+            };
+
+            const policyColor = deltaTotal >= 0 ? '#10B981' : '#EF4444';
+            const tracePolicy = {
+                x: years, y: policyTrajectory,
+                name: 'Policy Counterfactual Trajectory',
+                line: { color: policyColor, width: 3 }
+            };
+
+            const layout = {
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)',
+                font: { color: '#9CA3AF' },
+                margin: { t: 10, b: 40, l: 40, r: 10 },
+                xaxis: { gridcolor: '#1F2937', title: 'Year' },
+                yaxis: { gridcolor: '#1F2937', title: 'U5MR per 1,000 live births' }
+            };
+
+            Plotly.newPlot('projectionChart', [traceBase, tracePolicy], layout);
+        }
+
+        window.onload = runSimulation;
+    </script>
+</body>
+</html>

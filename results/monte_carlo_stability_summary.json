@@ -1,0 +1,10 @@
+{
+    "n_seeds": 50,
+    "evaluation_subset": "2023_holdout",
+    "unweighted_cate_mean": 0.835369338933399,
+    "unweighted_ci_lower": 0.7811990281192674,
+    "unweighted_ci_upper": 0.8800697547250401,
+    "weighted_ate_mean": 0.6269891208940968,
+    "weighted_ci_lower": 0.5715697885704388,
+    "weighted_ci_upper": 0.6702768929667363
+}
