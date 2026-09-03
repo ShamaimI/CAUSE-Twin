@@ -21,6 +21,3 @@ research = [
     "plotly==5.24.1",
     "requests==2.32.3"
 ]
-
-[tool.vercel]
-entrypoint = "webapp.api.index:app"
