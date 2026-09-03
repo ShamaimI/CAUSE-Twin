@@ -1,6 +1,6 @@
 """
 CAUSE-Twin: Causal Identification & Double Machine Learning Module (Module 5)
-Purpose: Formally define structural DAG, verify backdoor identification, estimate
+Purpose: Formally define structural DAG, verify backdoor  identification, estimate
 ATE/CATE heterogeneity across World Bank Income Tiers, and execute a 50-iteration
 Monte Carlo refutation suite (Placebo, Random Common Cause, Subset Validation).
 """
