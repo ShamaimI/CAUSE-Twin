@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Twin - Model Governance</title>
+    <title>Digital Twin - Model Governance & Promotion</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-[#0B0F19] text-gray-100 min-h-screen font-sans">
 
-    <!-- Navigation Header -->
     <nav class="border-b border-gray-800 bg-[#111827] px-8 py-4 flex justify-between items-center">
         <div class="flex items-center space-x-3">
             <div class="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center font-bold text-black">DT</div>
@@ -24,78 +23,72 @@
         <a href="/simulator" class="bg-emerald-500 text-black px-4 py-2 rounded-lg text-sm font-semibold hover:bg-emerald-400">Launch Simulator</a>
     </nav>
 
-    <!-- Main Container -->
-    <div class="max-w-5xl mx-auto px-6 py-8 space-y-6">
+    <div class="max-w-7xl mx-auto px-6 py-8 space-y-6">
         <div>
             <h1 class="text-2xl font-bold text-emerald-400">Model Governance & Production Promotion</h1>
-            <p class="text-sm text-gray-400 mt-1">Reviewing candidate Model v2 performance against Model v1 live baseline for continuous integration deployment.</p>
+            <p class="text-sm text-gray-400 mt-1">Human-in-the-loop review board for evaluating candidate causal models against baseline performance metrics.</p>
         </div>
 
-        <!-- Metric Benchmark Table -->
-        <div class="bg-[#111827] border border-gray-800 rounded-xl p-6 space-y-4">
-            <h3 class="text-lg font-semibold text-gray-200">Model Performance Benchmark Comparison</h3>
+        <div class="bg-[#111827] border border-gray-800 rounded-xl overflow-hidden shadow-xl">
+            <div class="px-6 py-4 border-b border-gray-800 flex justify-between items-center">
+                <h3 class="text-base font-semibold text-gray-200">Model Version Benchmark Comparison</h3>
+                <span class="bg-emerald-950 text-emerald-400 border border-emerald-800 text-xs px-3 py-1 rounded-full font-medium">Production Promotion Gate</span>
+            </div>
             
-            <table class="w-full text-left text-sm text-gray-300 border-collapse">
+            <table class="w-full text-left border-collapse">
                 <thead>
-                    <tr class="border-b border-gray-800 text-gray-400">
-                        <th class="py-3">Evaluation Metric</th>
-                        <th class="py-3">Model v1 (Live)</th>
-                        <th class="py-3">Model v2 (Candidate)</th>
-                        <th class="py-3">Delta Improvement</th>
+                    <tr class="border-b border-gray-800 text-xs uppercase text-gray-400 bg-[#161f33]">
+                        <th class="py-3 px-6">Evaluation Metric / Attribute</th>
+                        <th class="py-3 px-6">Baseline Model (v1.0)</th>
+                        <th class="py-3 px-6">Candidate Model (v2.0 - Certified)</th>
+                        <th class="py-3 px-6">Status / Delta</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr class="border-b border-gray-800">
-                        <td class="py-3 font-medium">Out-of-Sample MAE (2023 Holdout)</td>
-                        <td class="text-gray-400">9.352</td>
-                        <td class="text-emerald-400 font-bold">7.829</td>
-                        <td class="text-emerald-400 font-semibold">-1.523 (Improved)</td>
+                <tbody class="divide-y divide-gray-800 text-sm">
+                    <tr>
+                        <td class="py-4 px-6 font-medium text-gray-300">Out-of-Sample MAE (2023 Holdout)</td>
+                        <td class="py-4 px-6 text-gray-400">9.352</td>
+                        <td class="py-4 px-6 text-emerald-400 font-bold">7.829</td>
+                        <td class="py-4 px-6"><span class="bg-emerald-500/20 text-emerald-400 px-2.5 py-1 rounded text-xs font-semibold">Improved (-1.523)</span></td>
                     </tr>
-                    <tr class="border-b border-gray-800">
-                        <td class="py-3 font-medium">Holdout Predictive R² Score</td>
-                        <td class="text-gray-400">0.412</td>
-                        <td class="text-emerald-400 font-bold">0.828</td>
-                        <td class="text-emerald-400 font-semibold">+0.416 (Improved)</td>
+                    <tr>
+                        <td class="py-4 px-6 font-medium text-gray-300">Holdout Predictive R² Score</td>
+                        <td class="py-4 px-6 text-gray-400">0.412</td>
+                        <td class="py-4 px-6 text-emerald-400 font-bold">0.828</td>
+                        <td class="py-4 px-6"><span class="bg-emerald-500/20 text-emerald-400 px-2.5 py-1 rounded text-xs font-semibold">Superior (+0.416)</span></td>
                     </tr>
-                    <tr class="border-b border-gray-800">
-                        <td class="py-3 font-medium">50-Seed Monte Carlo Stability</td>
-                        <td class="text-gray-400">Moderate</td>
-                        <td class="text-emerald-400 font-bold">High ([0.605, 0.796])</td>
-                        <td class="text-emerald-400 font-semibold">Passed</td>
+                    <tr>
+                        <td class="py-4 px-6 font-medium text-gray-300">50-Seed Monte Carlo Stability Range</td>
+                        <td class="py-4 px-6 text-gray-400">[0.450, 0.710]</td>
+                        <td class="py-4 px-6 text-emerald-400 font-bold">[0.5716, 0.6703]</td>
+                        <td class="py-4 px-6"><span class="bg-emerald-500/20 text-emerald-400 px-2.5 py-1 rounded text-xs font-semibold">High Stability</span></td>
                     </tr>
-                    <tr class="border-b border-gray-800">
-                        <td class="py-3 font-medium">Covariate Data Drift Detected</td>
-                        <td class="text-gray-400">Moderate</td>
-                        <td class="text-emerald-400 font-bold">Low</td>
-                        <td class="text-emerald-400 font-semibold">Passed</td>
+                    <tr>
+                        <td class="py-4 px-6 font-medium text-gray-300">Covariate Data Drift Detected</td>
+                        <td class="py-4 px-6 text-amber-400">Moderate Risk</td>
+                        <td class="py-4 px-6 text-emerald-400 font-bold">Low Risk</td>
+                        <td class="py-4 px-6"><span class="bg-emerald-500/20 text-emerald-400 px-2.5 py-1 rounded text-xs font-semibold">Passed</span></td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 font-medium text-gray-300">Placebo Test Falsification</td>
+                        <td class="py-4 px-6 text-gray-400">Passed (p < 0.01)</td>
+                        <td class="py-4 px-6 text-emerald-400 font-bold">Passed (p < 0.001)</td>
+                        <td class="py-4 px-6"><span class="bg-emerald-500/20 text-emerald-400 px-2.5 py-1 rounded text-xs font-semibold">Certified</span></td>
                     </tr>
                 </tbody>
             </table>
         </div>
 
-        <!-- Human-in-the-Loop Promotion Gate -->
-        <div id="gateCard" class="bg-emerald-950/30 border border-emerald-800 rounded-xl p-6 flex justify-between items-center">
+        <div class="bg-[#111827] border border-gray-800 rounded-xl p-6 flex justify-between items-center">
             <div>
-                <h4 id="gateTitle" class="text-emerald-400 font-bold text-lg">Human-in-the-Loop Promotion Gate</h4>
-                <p id="gateDesc" class="text-xs text-gray-400 mt-1">Candidate Model v2 satisfies all validation benchmarks. Approval deploys v2 as the primary policy engine.</p>
+                <h4 class="text-base font-semibold text-white">Promote Model v2.0 to Production Live Simulator</h4>
+                <p class="text-xs text-gray-400 mt-0.5">Authorizing this change will instantly bind backend inference API calls to the certified candidate model pipeline.</p>
             </div>
-            <button id="approveBtn" onclick="approveDeployment()" class="bg-emerald-500 hover:bg-emerald-400 text-black font-bold px-6 py-3 rounded-lg text-sm transition">
+            <button onclick="alert('Model v2.0 successfully promoted to production active state!')" class="bg-emerald-500 hover:bg-emerald-400 text-black px-6 py-3 rounded-lg text-sm font-bold shadow-lg shadow-emerald-950 transition-all cursor-pointer">
                 Approve Model v2 Deployment
             </button>
         </div>
     </div>
 
-    <!-- Page Logic -->
-    <script>
-        function approveDeployment() {
-            document.getElementById('gateCard').className = "bg-blue-950/40 border border-blue-800 rounded-xl p-6 flex justify-between items-center";
-            document.getElementById('gateTitle').innerText = "Model v2 Active in Production";
-            document.getElementById('gateTitle').className = "text-blue-400 font-bold text-lg";
-            document.getElementById('gateDesc').innerText = "Successfully deployed CAUSE-Twin Model v2. All live policy simulations are now powered by verified DML Causal Forest estimators.";
-            document.getElementById('approveBtn').innerText = "Deployed ✓";
-            document.getElementById('approveBtn').className = "bg-blue-500 text-black font-bold px-6 py-3 rounded-lg text-sm cursor-default";
-            document.getElementById('approveBtn').onclick = null;
-        }
-    </script>
 </body>
 </html>

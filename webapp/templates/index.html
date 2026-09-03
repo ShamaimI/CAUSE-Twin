@@ -8,7 +8,6 @@
 </head>
 <body class="bg-[#0B0F19] text-gray-100 min-h-screen font-sans antialiased selection:bg-emerald-500 selection:text-black">
 
-    <!-- Navigation Header -->
     <nav class="border-b border-gray-800 bg-[#111827]/80 backdrop-blur-md sticky top-0 z-50 px-8 py-4 flex justify-between items-center">
         <div class="flex items-center space-x-3">
             <div class="w-9 h-9 bg-emerald-500 rounded-lg flex items-center justify-center font-extrabold text-black tracking-tighter">DT</div>
@@ -24,7 +23,6 @@
         <a href="/simulator" class="bg-emerald-500 text-black px-4 py-2 rounded-lg text-sm font-bold hover:bg-emerald-400 transition shadow-lg shadow-emerald-500/10">Launch Simulator</a>
     </nav>
 
-    <!-- Hero Section -->
     <section class="max-w-6xl mx-auto text-center pt-24 pb-16 px-6 space-y-8">
         <div class="inline-flex items-center space-x-2 bg-emerald-950/60 border border-emerald-800/80 text-emerald-300 text-xs px-4 py-1.5 rounded-full font-semibold">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
@@ -49,7 +47,6 @@
         </div>
     </section>
 
-    <!-- Global Impact KPI Strip -->
     <section class="max-w-7xl mx-auto px-6 py-8">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div class="bg-[#111827] border border-gray-800 p-6 rounded-2xl relative overflow-hidden">
@@ -59,9 +56,9 @@
             </div>
             
             <div class="bg-[#111827] border border-gray-800 p-6 rounded-2xl">
-                <div class="text-4xl font-extrabold text-emerald-400 tracking-tight">193</div>
+                <div class="text-4xl font-extrabold text-emerald-400 tracking-tight">137</div>
                 <div class="text-sm font-semibold text-gray-200 mt-2">Nations Modeled</div>
-                <div class="text-xs text-gray-500 mt-1">Continuous longitudinal panel spanning 2000–2023 ($N=5,208$).</div>
+                <div class="text-xs text-gray-500 mt-1">Continuous longitudinal panel spanning 2000–2023 ($N=2,951$).</div>
             </div>
 
             <div class="bg-[#111827] border border-gray-800 p-6 rounded-2xl">
@@ -72,13 +69,12 @@
 
             <div class="bg-[#111827] border border-gray-800 p-6 rounded-2xl">
                 <div class="text-4xl font-extrabold text-emerald-400 tracking-tight">50-Seed</div>
-                <div class="text-sm font-medium text-gray-200 mt-2">Monte Carlo Refutation</div>
-                <div class="text-xs text-gray-500 mt-1">Robust parameter validation across random seed permutations.</div>
+                <div class="text-sm font-medium text-gray-200 mt-2">Monte Carlo Stability</div>
+                <div class="text-xs text-gray-500 mt-1">95% CI stability range [0.5716, 0.6703] across seed permutations.</div>
             </div>
         </div>
     </section>
 
-    <!-- Core Vision & Problem Statement -->
     <section class="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
         <div class="space-y-6">
             <h2 class="text-3xl font-bold text-white tracking-tight">
@@ -97,7 +93,6 @@
             </div>
         </div>
 
-        <!-- Pillar Grid -->
         <div class="grid grid-cols-2 gap-4">
             <div class="bg-[#111827] border border-gray-800 p-5 rounded-xl space-y-2">
                 <div class="text-emerald-400 font-bold text-base">1. Real Demographic Data</div>
@@ -121,51 +116,6 @@
         </div>
     </section>
 
-    <!-- Global Strategic Impact Section -->
     <section class="max-w-7xl mx-auto px-6 py-16 border-t border-gray-800">
         <div class="text-center max-w-3xl mx-auto mb-12">
-            <h2 class="text-3xl font-bold text-white tracking-tight">Global Strategic Impact</h2>
-            <p class="text-sm text-gray-400 mt-2">Empowering multi-lateral institutions with rigorous decision-support tools.</p>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-8">
-            <div class="bg-[#111827] border border-gray-800 p-6 rounded-2xl space-y-3">
-                <div class="w-10 h-10 bg-emerald-950 border border-emerald-700 text-emerald-400 rounded-lg flex items-center justify-center font-bold">01</div>
-                <h3 class="text-lg font-bold text-white">Targeted Resource Allocation</h3>
-                <p class="text-xs text-gray-400 leading-relaxed">
-                    Helps international donors direct capital toward interventions with the highest marginal return on lives saved per dollar invested.
-                </p>
-            </div>
-
-            <div class="bg-[#111827] border border-gray-800 p-6 rounded-2xl space-y-3">
-                <div class="w-10 h-10 bg-emerald-950 border border-emerald-700 text-emerald-400 rounded-lg flex items-center justify-center font-bold">02</div>
-                <h3 class="text-lg font-bold text-white">Uncertainty Mitigation</h3>
-                <p class="text-xs text-gray-400 leading-relaxed">
-                    Highlights when a country's parameter estimates cross zero, preventing over-confident policy implementation in high-variance regions.
-                </p>
-            </div>
-
-            <div class="bg-[#111827] border border-gray-800 p-6 rounded-2xl space-y-3">
-                <div class="w-10 h-10 bg-emerald-950 border border-emerald-700 text-emerald-400 rounded-lg flex items-center justify-center font-bold">03</div>
-                <h3 class="text-lg font-bold text-white">Continuous Governance</h3>
-                <p class="text-xs text-gray-400 leading-relaxed">
-                    Includes automated model drift monitoring and human-in-the-loop promotion gates to ensure models remain validated as new panel data arrives.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="border-t border-gray-800 py-8 px-8 text-center text-xs text-gray-500">
-        <div class="flex justify-center space-x-6 mb-4 text-gray-400">
-            <a href="/" class="hover:text-emerald-400">Home</a>
-            <a href="/explorer" class="hover:text-emerald-400">Explorer</a>
-            <a href="/simulator" class="hover:text-emerald-400">Simulator</a>
-            <a href="/diagnostics" class="hover:text-emerald-400">Diagnostics</a>
-            <a href="/governance" class="hover:text-emerald-400">Governance</a>
-        </div>
-        <p>© 2026 CAUSE-Twin Platform. Built for Mitacs High-Rigor Policy Research Application.</p>
-    </footer>
-
-</body>
-</html>
+            <h2 class="text-3xl font-bold text-white tracking-tight
