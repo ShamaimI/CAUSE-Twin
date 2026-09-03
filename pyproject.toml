@@ -1,2 +1,20 @@
+[project]
+name = "cause-twin"
+version = "2.0.0"
+description = "Econometric Digital Twin for Child Welfare Policy"
+requires-python = ">=3.9"
+dependencies = [
+    "flask",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "dowhy",
+    "econml",
+    "shap",
+    "plotly",
+    "requests",
+    "linearmodels"
+]
+
 [tool.vercel]
 entrypoint = "webapp.api.index:app"
